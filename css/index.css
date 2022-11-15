@@ -15,7 +15,6 @@ main {
 
 .campo-formulario {
     width: 320px;
-    height: 294px;
     margin: 0 6%;
     border-radius: 32px;
 }
@@ -71,4 +70,8 @@ main {
     align-self: center;
     text-decoration: none;
     color: #FFFF;
+}
+
+.apresentacao__paragrafo {
+    color: #C74375;
 }

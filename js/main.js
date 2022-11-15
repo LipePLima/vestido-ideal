@@ -1,15 +1,21 @@
-const botao = document.querySelector('#botao');
+const botao   = document.querySelector('#botao');
 
 botao.addEventListener('click', function (event) {
     event.preventDefault();
 
-    console.log(dados());
+    const nome    = document.querySelector('#nome').value;
+    const tamanho = document.querySelector('#tamanho').value;
+    const cor     = document.querySelector('#cor').value;
+    
+    apresentacao(nome)
 })
 
-function dados () {
-    const nome    = document.querySelector('#nome');
-    const tamanho = document.querySelector('#tamanho');
-    const cor     = document.querySelector('#cor')
+function apresentacao (nome) {
+    const div       = document.querySelector('#apresentacao');
+    const paragrafo = document.createElement('p');
+    paragrafo.classList.add('apresentacao__paragrafo');
 
-    
+    div.appendChild(paragrafo);
+
+    paragrafo.textContent = `Olá, ${nome}. Aqui está o tão esperado vestido ideal. `
 }

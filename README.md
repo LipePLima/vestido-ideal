@@ -1,4 +1,4 @@
-# vestido-ideal
+# Vestido Ideal
 
 Neste projeto você poderá encontrar o seu vestido ideal. Basta colocar seu nome, tamanho e cor.
 
@@ -7,12 +7,13 @@ Neste projeto você poderá encontrar o seu vestido ideal. Basta colocar seu nom
 ![Status: em desenvolvimento](https://img.shields.io/badge/STATUS-Em%20desenvolvimento-blue)
 
 - [x] Layout de formulário com nome, tamanho e cor.
-- [x] Criar botao do formulário
+- [x] Criar botao do formulário.
 - [x] Layout da página onde vai aparecer os vestidos.
 - [x] Layout da página dos vestido jogado para a primeira página.
 - [x] Armazenar os dados inseridos pelo usuário.
-- [ ] Imprimir esses dados no console.
-- [ ] Criar um parágrafo de apresentação com o nome do usuário. 
+- [x] Imprimir esses dados no console.
+- [x] Criar um parágrafo de apresentação com o nome do usuário. 
+- [ ] Inserir as imagens dos vestidos.
 - [ ] Comparar o tamanho e cor inseridos pelo usuário com os objetos dos vestidos.
 - [ ] Selecionar os vestidos compatíveis com o tamanho e cor do usuário.
 - [ ] Mostrar os vestidos compatíveis separando por lisos e bordados.
