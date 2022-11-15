@@ -6,8 +6,10 @@ botao.addEventListener('click', function (event) {
     const nome    = document.querySelector('#nome').value;
     const tamanho = document.querySelector('#tamanho').value;
     const cor     = document.querySelector('#cor').value;
-    
+
+    validaForm(tamanho, cor)
     apresentacao(nome)
+
 })
 
 function apresentacao (nome) {
@@ -18,4 +20,16 @@ function apresentacao (nome) {
     div.appendChild(paragrafo);
 
     paragrafo.textContent = `Olá, ${nome}. Aqui está o tão esperado vestido ideal. `
+}
+
+function validaForm (tamanho, cor) {
+    const erro = [];
+
+    
+}
+
+function vestidos () {
+    const vestidos = [
+        
+    ]
 }

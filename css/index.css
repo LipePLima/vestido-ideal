@@ -56,20 +56,13 @@ main {
     width: 79px;
     height: 19px;
     background-color: #C74375;
+    color: #FFFF;
     border: none;
     border-radius: 4px;
 }
 
 .form__botao:active {
     background-color: #c743769a;
-}
-
-.form__link {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    text-decoration: none;
-    color: #FFFF;
 }
 
 .apresentacao__paragrafo {
