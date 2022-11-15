@@ -5,3 +5,13 @@ body {
 main {
     background-color: #F2D7D7;
 }
+
+.imagem {
+    margin: 2rem 25% 0 25%;
+}
+
+.campo-formulario {
+    width: 320px;
+    height: 294px;
+    margin-right: 20px;
+}
