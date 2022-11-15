@@ -5,7 +5,7 @@ Neste projeto você poderá encontrar o seu vestido ideal. Basta colocar seu nom
 Lista de tarefas:
 
 - [x] Layout de formulário com nome, tamanho e cor.
-- [ ] Criar botao do formulário
+- [x] Criar botao do formulário
 - [ ] Layout da página onde vai aparecer os vestidos.
 - [ ] Armazenar os dados inseridos pelo usuário.
 - [ ] Comparar o tamanho e cor inseridos pelo usuário com os objetos dos vestidos.
