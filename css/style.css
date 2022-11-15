@@ -7,11 +7,42 @@ main {
 }
 
 .imagem {
-    margin: 2rem 25% 0 25%;
+    margin: 2rem 15% 0 15%;
 }
 
 .campo-formulario {
     width: 320px;
     height: 294px;
-    margin-right: 20px;
+    margin: 0 6%;
+    border-radius: 32px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+}
+
+.formulario__campo {
+    display: flex;
+    align-self: center;
+    width: 130px;
+    margin-bottom: 22px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form__titulo {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 8px;
+    color: #C74375;
+}
+
+.form__input {
+    height: 22px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 8px;
 }
