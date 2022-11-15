@@ -15,7 +15,7 @@ Neste projeto você poderá encontrar o seu vestido ideal. Basta colocar seu nom
 - [x] Armazenar os dados inseridos pelo usuário.
 - [x] Imprimir esses dados no console.
 - [x] Criar um parágrafo de apresentação com o nome do usuário. 
-- [ ] Validação do formulário.
+- [x] Validação do formulário.
 - [ ] Erro de tamanho/ Vestido com o tamanho digitado não encontrado.
 - [ ] Erro de cor/Vestido com a cor digitada não encontrado.
 - [ ] Inserir as imagens dos vestidos.

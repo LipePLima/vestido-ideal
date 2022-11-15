@@ -13,22 +13,26 @@
 <body>
     <img src="assets/img/1 1.svg" alt="Imagem Logo" class="imagem">
     <main class="campo-formulario">
-        <form action="" method="get" class="formulario">
+        <form class="formulario">
             <div class="formulario__campo">
                 <label for="nome" class="form__titulo">Nome</label>
                 <input type="text" class="form__input" id="nome">
             </div>
+
             <div class="formulario__campo">
                 <label for="tamanho" class="form__titulo">Tamanho</label>
                 <input type="number" class="form__input" id="tamanho">
             </div>
+
             <div class="formulario__campo">
                 <label for="cor" class="form__titulo">Cor</label>
                 <input type="text" class="form__input" id="cor">
             </div>
+
             <div class="formulario__campo">
                 <button type="submit" class="form__botao" id="botao">Mostrar</button>
             </div>
+            <ul id="mensagens-erro"></ul>
             <div class="formulario__campo" id="apresentacao">
                 
             </div>
@@ -44,5 +48,6 @@
         <h2 class="container__titulo">Bordados</h2>
     </div>
     <script src="js/main.js"></script>
+    <script src="js/validForm.js"></script>
 </body>
 </html>

@@ -68,3 +68,7 @@ main {
 .apresentacao__paragrafo {
     color: #C74375;
 }
+
+#mensagens-erro {
+    color: rgb(255, 0, 0);
+}
