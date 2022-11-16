@@ -16,11 +16,12 @@ Neste projeto você poderá encontrar o seu vestido ideal. Basta colocar seu nom
 - [x] Imprimir esses dados no console.
 - [x] Criar um parágrafo de apresentação com o nome do usuário. 
 - [x] Validação do formulário.
-- [ ] Erro de tamanho/ Vestido com o tamanho digitado não encontrado.
-- [ ] Erro de cor/Vestido com a cor digitada não encontrado.
+- [x] Tamanhos e cores disponíveis.
 - [ ] Inserir as imagens dos vestidos.
 - [ ] Comparar o tamanho e cor inseridos pelo usuário com os objetos dos vestidos.
 - [ ] Selecionar os vestidos compatíveis com o tamanho e cor do usuário.
+- [ ] Erro de tamanho/ Vestido com o tamanho digitado não encontrado.
+- [ ] Erro de cor/Vestido com a cor digitada não encontrado.
 - [ ] Mostrar os vestidos compatíveis separando por lisos e bordados.
 
 ## Tecnologias
