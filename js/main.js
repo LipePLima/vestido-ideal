@@ -51,5 +51,6 @@ function vestidos (tamanho, cor) {
 
     const pesquisa = vestidos.find( vestido => vestido.tamanho == tamanho && vestido.cor == cor)
 
-    
+    console.log(pesquisa.tamanho)
+    console.log(pesquisa.cor)
 }
