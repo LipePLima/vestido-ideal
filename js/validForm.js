@@ -7,7 +7,7 @@ function validaForm (nome, tamanho, cor) {
     
     if (tamanho.length === 0) {
         erro.push("Preencha o campo Tamanho")
-    } 
+    }
     
     if (cor.length === 0) {
         erro.push("Preencha o campo Cor")
