@@ -11,8 +11,7 @@ Nele você poderá encontrar o seu vestido ideal. Basta colocar seu nome, tamanh
 
 - [x] Layout de formulário com nome, tamanho e cor.
 - [x] Criar botao do formulário.
-- [x] Layout da página onde vai aparecer os vestidos.
-- [x] Layout da página dos vestido jogado para a primeira página.
+- [x] Layout onde vai aparecer os vestidos.
 - [x] Armazenar os dados inseridos pelo usuário.
 - [x] Imprimir esses dados no console.
 - [x] Criar um parágrafo de apresentação com o nome do usuário. 
@@ -23,7 +22,7 @@ Nele você poderá encontrar o seu vestido ideal. Basta colocar seu nome, tamanh
 - [x] Erro de tamanho/ Vestido com o tamanho digitado não encontrado.
 - [x] Erro de cor/Vestido com a cor digitada não encontrado.
 - [x] Corrigir erro de repetição de apresentação quando limpa o formulário
-- [ ] Inserir as imagens dos vestidos.
+- [x] Inserir as imagens dos vestidos.
 - [ ] Mostrar os vestidos compatíveis separando por lisos e bordados.
 
 ## Tecnologias
