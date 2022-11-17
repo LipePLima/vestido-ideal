@@ -23,11 +23,7 @@ botao.addEventListener('click', function (event) {
 })
 
 function apresentacao (nome) {
-    const div       = document.querySelector('#apresentacao');
-    const paragrafo = document.createElement('p');
-
-    paragrafo.classList.add('apresentacao__paragrafo');
-    div.appendChild(paragrafo);
+    const paragrafo = document.querySelector('#apresentacao');
     
     if (nome.length > 0) {
         paragrafo.textContent = `Olá, ${nome}. Aqui está o tão esperado vestido ideal. `
@@ -38,23 +34,24 @@ function vestidos (tamanho, cor) {
     const vestidos = [
         {
             id: 1,
-            vestido: "#",
+            vestidoLiso: "./assets/img/vestidos/verdePLiso",
+            vestidoBordado: "./assets/img/vestidos/verdePBordado",
             tamanho: 36,
             cor: "verde",
-            tipo: "bordado"
+            tipo: "liso"
         }, {
             id: 2,
             vestido: "#",
             tamanho: 40,
             cor: "azul",
-            tipo: "liso"
+            tipo: "bordado"
         }
     ]
 
     const pesquisa  = vestidos.find( vestido => vestido.tamanho == tamanho && vestido.cor == cor)
     
     if (typeof pesquisa == 'object') {
-        const resultado = [pesquisa.vestido, pesquisa.tamanho, pesquisa.cor] 
+        const resultado = [pesquisa.vestidoLiso, pesquisa.vestidoBordado] 
         return resultado 
     } else {
         const resultado2 = "undefined"
