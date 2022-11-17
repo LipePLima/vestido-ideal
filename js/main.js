@@ -7,17 +7,17 @@ botao.addEventListener('click', function (event) {
     const nome       = document.querySelector('#nome').value;
     const tamanho    = document.querySelector('#tamanho').value;
     const cor        = document.querySelector('#cor').value.toLowerCase();
-    const erros      = validaForm(nome, tamanho, cor);
+    const vestido    = vestidos(tamanho, cor)
+    const erros      = validaForm(nome, tamanho, cor, vestido);
     
-
     if (erros.length > 0) {
         exibeMensagensErro(erros)
         return;
     }
 
-    console.log(vestidos(tamanho, cor))
-    apresentacao(nome);
     exibeMensagensErro(erros);
+    apresentacao(nome);
+    console.log(vestido)
 
     formulario.reset();
 })
@@ -28,8 +28,10 @@ function apresentacao (nome) {
 
     paragrafo.classList.add('apresentacao__paragrafo');
     div.appendChild(paragrafo);
-
-    paragrafo.textContent = `Olá, ${nome}. Aqui está o tão esperado vestido ideal. `
+    
+    if (nome.length > 0) {
+        paragrafo.textContent = `Olá, ${nome}. Aqui está o tão esperado vestido ideal. `
+    }     
 }
 
 function vestidos (tamanho, cor) {
@@ -49,8 +51,15 @@ function vestidos (tamanho, cor) {
         }
     ]
 
-    const pesquisa = vestidos.find( vestido => vestido.tamanho == tamanho && vestido.cor == cor)
+    const pesquisa  = vestidos.find( vestido => vestido.tamanho == tamanho && vestido.cor == cor)
+    
 
-    console.log(pesquisa.tamanho)
-    console.log(pesquisa.cor)
+
+    if (typeof pesquisa == 'object') {
+        const resultado = [pesquisa.vestido, pesquisa.tamanho, pesquisa.cor] 
+        return resultado 
+    } else {
+        const resultado2 = "undefined"
+        return resultado2 
+    }
 }

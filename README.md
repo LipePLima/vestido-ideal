@@ -1,6 +1,6 @@
 # Vestido Ideal
 
-<p align="center"><a href="https://vestido-ideal.vercel.app/"><img src="assets/img/1 1.svg" width="250px"></a></p>
+<p align="center"><a href="https://vestido-ideal.vercel.app/"><img src="assets/img/vestido.svg" width="250px"></a></p>
 
 Neste projeto você poderá encontrar o seu vestido ideal. Basta colocar seu nome, tamanho e cor.
 
@@ -19,9 +19,9 @@ Neste projeto você poderá encontrar o seu vestido ideal. Basta colocar seu nom
 - [x] Tamanhos e cores disponíveis.
 - [x] Comparar o tamanho e cor inseridos pelo usuário com os objetos dos vestidos.
 - [x] Selecionar os vestidos compatíveis com o tamanho e cor do usuário.
+- [x] Erro de tamanho/ Vestido com o tamanho digitado não encontrado.
+- [x] Erro de cor/Vestido com a cor digitada não encontrado.
 - [ ] Inserir as imagens dos vestidos.
-- [ ] Erro de tamanho/ Vestido com o tamanho digitado não encontrado.
-- [ ] Erro de cor/Vestido com a cor digitada não encontrado.
 - [ ] Mostrar os vestidos compatíveis separando por lisos e bordados.
 
 ## Tecnologias

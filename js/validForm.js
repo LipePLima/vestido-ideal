@@ -1,4 +1,4 @@
-function validaForm (nome, tamanho, cor) {
+function validaForm (nome, tamanho, cor, vestido) {
     const erro = [];
 
     if (nome.length === 0) {
@@ -11,7 +11,11 @@ function validaForm (nome, tamanho, cor) {
     
     if (cor.length === 0) {
         erro.push("Preencha o campo Cor")
-    } 
+    }
+
+    if (vestido == "undefined") {
+        erro.push("Tamanho ou cor indisponível")
+    }
 
     return erro
 }
