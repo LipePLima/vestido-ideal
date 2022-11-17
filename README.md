@@ -2,7 +2,8 @@
 
 <p align="center"><a href="https://vestido-ideal.vercel.app/"><img src="assets/img/vestido.svg" width="250px"></a></p>
 
-Neste projeto você poderá encontrar o seu vestido ideal. Basta colocar seu nome, tamanho e cor.
+**Projeto Mobile**
+Nele você poderá encontrar o seu vestido ideal. Basta colocar seu nome, tamanho, cor. eEpronto, 2 vestidos aparecerão liso e bordado. Simples demais, não?
 
 ## Etapas do projeto
 

@@ -53,8 +53,6 @@ function vestidos (tamanho, cor) {
 
     const pesquisa  = vestidos.find( vestido => vestido.tamanho == tamanho && vestido.cor == cor)
     
-
-
     if (typeof pesquisa == 'object') {
         const resultado = [pesquisa.vestido, pesquisa.tamanho, pesquisa.cor] 
         return resultado 
