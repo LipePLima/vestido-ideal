@@ -20,9 +20,9 @@ botao.addEventListener('click', function (event) {
     if (nome.length > 0) {
         paragrafo.textContent = `Olá, ${nome}. Aqui está o tão esperado vestido ideal.`
     }   
-
+    
     exibeMensagensErro(erros);
-    console.log(vestido)
+    addVestido(vestido);
 
     formulario.reset();
 })

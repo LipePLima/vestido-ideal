@@ -23,7 +23,8 @@ Nele você poderá encontrar o seu vestido ideal. Basta colocar seu nome, tamanh
 - [x] Erro de cor/Vestido com a cor digitada não encontrado.
 - [x] Corrigir erro de repetição de apresentação quando limpa o formulário
 - [x] Inserir as imagens dos vestidos.
-- [ ] Mostrar os vestidos compatíveis separando por lisos e bordados.
+- [x] Mostrar os vestidos compatíveis separando por lisos e bordados.
+- [ ] Resetar vestidos quando for mostrar outros.
 
 ## Tecnologias
 

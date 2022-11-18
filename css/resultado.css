@@ -31,9 +31,10 @@
     font-size: 18px;
     color: #FFFF;
     border-bottom: 1px solid #AA1A46;
+    margin-bottom: 1.5rem;
 }
 
 .imagem {
     margin: 0;
-    padding: 2rem 0;
+    padding-bottom: 2.5rem;
 }
