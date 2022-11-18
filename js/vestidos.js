@@ -71,24 +71,23 @@ function vestidos (tamanho, cor) {
 function addVestido (vestido) {
     const divLiso    = document.querySelector('#imagem__liso');
     const divBordado = document.querySelector('#imagem__bordado');
-    const existimg   = document.querySelector('.imagem');
-    console.log(existimg)
 
-    if (!existimg == 'null') {
-        divLiso.removeChild(existimg[0])
-        divBordado.removeChild(existimg[1])
+    if (divLiso.childElementCount > 1 && divBordado.childElementCount > 1) {
+        divLiso.lastElementChild.remove()
+        divBordado.lastElementChild.remove()
     } 
 
     const imgLiso = document.createElement('img');
+    imgLiso.setAttribute('id', 'imagem1')
     imgLiso.classList.add('imagem')
     imgLiso.src = vestido[0]
 
     divLiso.appendChild(imgLiso)
 
     const imgBordado = document.createElement('img');
+    imgBordado.setAttribute('id', 'imagem2')
     imgBordado.classList.add('imagem')
     imgBordado.src = vestido[1]
 
     divBordado.appendChild(imgBordado)
-
 }
