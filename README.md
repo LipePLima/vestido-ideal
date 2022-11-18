@@ -42,7 +42,7 @@ Hospedagem:
 
 ## Depoimento
 
- Projeto desafiador, feliz demais e muito satisfeito de ter concluído mais um projeto pessoal. Com o desafio do Pedro Marins de desenvolver um projeto em 7 dias, minha namorada(designer) me ajudou a pensar em um projeto e no design dele, e assim que finalizamos o desing eu mergulhei no código. Estou começando a me familiarizar com JS, ao invés de dor de cabeça e cansaço instantânteo, ele está me proporcionando bastante curiosidade e vontade de vencer os desafios. Espero que gostem e vamos para mais um.
+ Projeto desafiador, feliz demais e muito satisfeito de ter concluído mais um projeto pessoal. Com o desafio do Pedro Marins de desenvolver um projeto em 7 dias, minha namorada(designer) me ajudou a pensar em um projeto e no design dele, e assim que finalizamos o design eu mergulhei no código. Estou começando a me familiarizar com JS, ao invés de dor de cabeça e cansaço instantânteo, ele está me proporcionando bastante curiosidade e vontade de vencer os desafios. Espero que gostem e vamos para mais um.
 
 ## Contato | Redes Sociais
 
