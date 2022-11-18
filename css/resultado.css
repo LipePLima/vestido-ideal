@@ -17,17 +17,23 @@
 
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 20rem;
-    height: 14.375rem;
 }
 
 .container__titulo {
     display: flex;
     justify-content: center;
-    align-self: flex-start;
+    align-self: center;
     width: 7.5rem;
     font-size: 18px;
     color: #FFFF;
     border-bottom: 1px solid #AA1A46;
+}
+
+.imagem {
+    margin: 0;
+    padding: 2rem 0;
 }

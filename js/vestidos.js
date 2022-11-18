@@ -67,3 +67,15 @@ function vestidos (tamanho, cor) {
         return resultado2 
     }
 }
+
+function addVestido (vestido) {
+    const divLiso = document.querySelector('#imagem__liso');
+    const imgLiso = document.createElement('img');
+
+    const divBordado = document.querySelector('#imagem__bordado');
+    const imgBordado = document.createElement('img');
+
+    const liso    = vestido[0];
+    const bordado = vestido[1]; 
+    
+}
