@@ -33,6 +33,16 @@ Nele você poderá encontrar o seu vestido ideal. Basta preencher o formulário 
 Hospedagem:
 
  ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+ 
+## Imagens
+
+<h3> :camera: Página inicial</h3>
+
+![vestido-ideal vercel app_](https://user-images.githubusercontent.com/102830741/203554663-53f91878-cb31-439c-a4b8-7b71f388fddf.png)
+
+<h3> :camera: Página ativa</h3>
+
+![vestido-ideal vercel app_ (1)](https://user-images.githubusercontent.com/102830741/203554685-c5048380-ae82-473c-986c-517fa137be4b.png)
 
 ## Licensas
 
