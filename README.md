@@ -38,7 +38,7 @@ Hospedagem:
 
 <h3> :camera: Página inicial</h3>
 
-![vestido-ideal vercel app_](https://user-images.githubusercontent.com/102830741/203554663-53f91878-cb31-439c-a4b8-7b71f388fddf.png)
+![vestido-ideal vercel app_](https://user-images.githubusercontent.com/102830741/203554663-53f91878-cb31-439c-a4b8-7b71f388fddf.png#vitrinedev)
 
 <h3> :camera: Página ativa</h3>
 
